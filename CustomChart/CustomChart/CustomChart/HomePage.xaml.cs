@@ -19,6 +19,7 @@ namespace CustomChart
             chartPicker.SelectedIndexChanged += chartPicker_SelectedIndexChanged;
             StartButton.Clicked += StartButton_Clicked;
             StopButton.Clicked += StopButton_Clicked;
+            ShowSplineSwitch.Toggled += ShowSplineSwitch_Toggled;
             _client = new StockMarketServiceClient();
 
             chart.ItemSource = _data = new StockMarketDataSample();
@@ -29,6 +30,11 @@ namespace CustomChart
             }
             chartPicker.SelectedIndex = 0;
 		}
+
+        void ShowSplineSwitch_Toggled(object sender, Xamarin.Forms.ToggledEventArgs e)
+        {
+            chart.ShowSpline = e.Value;
+        }
 
         void OnStockMarketDataReceived(object sender, StockMarketDataReceivedEventArgs e)
         {

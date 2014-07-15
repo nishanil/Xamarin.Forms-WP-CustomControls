@@ -24,13 +24,12 @@ namespace CustomChart.CustomControls
             set { SetValue(ItemSourceProperty, value); }
         }
 
-        public void Start()
-        { 
-        }
+        public static readonly BindableProperty ShowSplineProperty = BindableProperty.Create<CustomChartView, bool>(p => p.ShowSpline, false);
 
-        public void Stop()
+        public bool ShowSpline
         {
-
+            get { return (bool)GetValue(ShowSplineProperty); }
+            set { SetValue(ShowSplineProperty, value); }
         }
     }
 

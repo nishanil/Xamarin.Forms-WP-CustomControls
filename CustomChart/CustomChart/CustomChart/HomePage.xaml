@@ -20,8 +20,8 @@
         <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
             <Button Text="Start" x:Name="StartButton" />
             <Button Text="Stop"  x:Name="StopButton"  />
-
-       
+            <Label Text="Spline:" VerticalOptions="Center"/>
+            <Switch x:Name="ShowSplineSwitch"/>
         </StackLayout>
         <Picker x:Name="chartPicker" Title="Chart Type" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Grid.Row="1"/>
         <custom:CustomChartView x:Name="chart" Grid.Row="2" />
