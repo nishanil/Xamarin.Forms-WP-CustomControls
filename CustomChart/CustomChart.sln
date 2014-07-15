@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomChart.WinPhone", "CustomChart\CustomChart.WinPhone\CustomChart.WinPhone.csproj", "{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CustomChart", "CustomChart\CustomChart\CustomChart.shproj", "{FD02B4F3-F898-4A54-8213-D430C881F0B4}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CustomChart\CustomChart\CustomChart.projitems*{fd02b4f3-f898-4a54-8213-d430c881f0b4}*SharedItemsImports = 13
+		CustomChart\CustomChart\CustomChart.projitems*{e6b734ee-1384-44c6-acbc-9da7afa5bef2}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
+		Ad-Hoc|ARM = Ad-Hoc|ARM
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		Ad-Hoc|Mixed Platforms = Ad-Hoc|Mixed Platforms
+		Ad-Hoc|x86 = Ad-Hoc|x86
+		AppStore|Any CPU = AppStore|Any CPU
+		AppStore|ARM = AppStore|ARM
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		AppStore|Mixed Platforms = AppStore|Mixed Platforms
+		AppStore|x86 = AppStore|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|Any CPU.Deploy.0 = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|ARM.ActiveCfg = Release|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|ARM.Build.0 = Release|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|ARM.Deploy.0 = Release|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|Mixed Platforms.ActiveCfg = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|Mixed Platforms.Build.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|Mixed Platforms.Deploy.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|x86.ActiveCfg = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|x86.Build.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Ad-Hoc|x86.Deploy.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|Any CPU.Deploy.0 = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|ARM.ActiveCfg = Release|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|ARM.Build.0 = Release|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|ARM.Deploy.0 = Release|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|Mixed Platforms.ActiveCfg = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|Mixed Platforms.Build.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|Mixed Platforms.Deploy.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|x86.ActiveCfg = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|x86.Build.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.AppStore|x86.Deploy.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|ARM.Build.0 = Debug|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|x86.ActiveCfg = Debug|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|x86.Build.0 = Debug|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Debug|x86.Deploy.0 = Debug|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|ARM.ActiveCfg = Release|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|ARM.Build.0 = Release|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|ARM.Deploy.0 = Release|ARM
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|Mixed Platforms.Deploy.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|x86.ActiveCfg = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|x86.Build.0 = Release|x86
+		{E6B734EE-1384-44C6-ACBC-9DA7AFA5BEF2}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,66 @@
+﻿<Application
+    x:Class="CustomChart.WinPhone.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <local:LocalizedStrings xmlns:local="clr-namespace:CustomChart.WinPhone" x:Key="LocalizedStrings"/>
+        <!-- ********************************** COLORS **********************************-->
+        <Color x:Key="Color_000">#FF00B3F1</Color>
+        <Color x:Key="Color_001">#FF076897</Color>
+        <Color x:Key="Color_002">#FF003F5E</Color>
+        <Color x:Key="Color_003">#FF93A725</Color>
+        <Color x:Key="Color_004">#FFFFC912</Color>
+        <Color x:Key="Color_005">#FFFF8912</Color>
+        <Color x:Key="Color_006">#FFEF4941</Color>
+        <Color x:Key="Color_007">#FFBA3036</Color>
+        <Color x:Key="Color_008">#FF573F9E</Color>
+        <Color x:Key="Color_009">#FF3E3E3E</Color>
+        <Color x:Key="Color_010">#FF7C7C7C</Color>
+        <Color x:Key="Color_011">#FFABABAB</Color>
+        <Color x:Key="Color_012">#FFE7E7E7</Color>
+        <Color x:Key="Color_020">White</Color>
+        <Color x:Key="Color_013">#00FFFFFF</Color>
+        <Color x:Key="Color_014">#3F93A725</Color>
+        <Color x:Key="Color_015">#3F076897</Color>
+        <Color x:Key="Color_016">#3FFF8912</Color>
+        <Color x:Key="Color_017">#1A7C7C7C</Color>
+        <Color x:Key="Color_018">#33000000</Color>
+        <Color x:Key="Color_019">#4C000000</Color>
+
+        <!-- ********************************** BRUSHES **********************************-->
+        <SolidColorBrush x:Key="MetroThemeAccentColor" Color="{StaticResource Color_000}"/>
+        <SolidColorBrush x:Key="LightForegroundBrush" Color="{StaticResource Color_020}"/>
+        <SolidColorBrush x:Key="TransparentBrush" Color="{StaticResource Color_013}"/>
+        <SolidColorBrush x:Key="DataChartLightBrush1" Color="{StaticResource Color_000}"/>
+        <SolidColorBrush x:Key="DataChartLightBrush2" Color="{StaticResource Color_009}"/>
+        <SolidColorBrush x:Key="DataChartLightBrush3" Color="{StaticResource Color_010}"/>
+        <SolidColorBrush x:Key="DataChartLightBrush4" Color="{StaticResource Color_001}"/>
+        <SolidColorBrush x:Key="DataChartLightBrush5" Color="{StaticResource Color_003}"/>
+        <SolidColorBrush x:Key="DataChartLightBrush6" Color="{StaticResource Color_004}"/>
+        <SolidColorBrush x:Key="DataChartLightBrush7" Color="{StaticResource Color_005}"/>
+        <SolidColorBrush x:Key="DataChartLightBrush8" Color="{StaticResource Color_006}"/>
+        <SolidColorBrush x:Key="DataChartLightBrush9" Color="{StaticResource Color_008}"/>
+        <SolidColorBrush x:Key="DataChartLightBrush12" Color="{StaticResource Color_007}"/>
+        <SolidColorBrush x:Key="DataChartDarkBrush4" Color="{StaticResource Color_002}"/>
+        <SolidColorBrush x:Key="SamplesLightBrush1" Color="{StaticResource Color_014}"/>
+        <SolidColorBrush x:Key="SamplesLightBrush2" Color="{StaticResource Color_015}"/>
+        <SolidColorBrush x:Key="SamplesLightBrush3" Color="{StaticResource Color_016}"/>
+        <SolidColorBrush x:Key="NodeHoverBg" Color="{StaticResource Color_017}" />
+        <SolidColorBrush x:Key="NodeHoverStroke" Color="{StaticResource Color_018}" />
+        <SolidColorBrush x:Key="NodeSelectedBg" Color="{StaticResource Color_019}" />
+        <SolidColorBrush x:Key="NodeSelectedStroke" Color="{StaticResource Color_019}" />
+        <SolidColorBrush x:Key="BarcodeTextForegroundUnlit" Color="#4C7A7A7A"/>
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <shell:PhoneApplicationService
+            Launching="Application_Launching" Closing="Application_Closing"
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>

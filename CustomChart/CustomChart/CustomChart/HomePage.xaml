@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="CustomChart.HomePage"
+             xmlns:custom="clr-namespace:CustomChart.CustomControls;assembly=CustomChart.WinPhone">
+    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+
+            <RowDefinition Height="*" />
+            <RowDefinition Height="1" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Padding>20</Grid.Padding>
+        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
+            <Button Text="Start" x:Name="StartButton" />
+            <Button Text="Stop"  x:Name="StopButton"  />
+
+       
+        </StackLayout>
+        <Picker x:Name="chartPicker" Title="Chart Type" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Grid.Row="1"/>
+        <custom:CustomChartView x:Name="chart" Grid.Row="2" />
+    </Grid>
+</ContentPage>
