@@ -1,4 +1,4 @@
-Xamarin-Forms-WindowsPhone-Custom
+Xamarin.Forms and Windows Phone Custom Controls
 =================================
 
-Samples to show Windows Phone Third Party Controls integrating with Xamarin Forms
+Using Windows Phone Third Party Controls with Xamarin.Forms!
